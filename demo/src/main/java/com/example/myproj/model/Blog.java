@@ -12,8 +12,8 @@ public class Blog {
     @Transient
     public static final String SEQUENCE_NAME = "sequence";
 
-	@Id
-	private int blogId;
+    @Id
+    private int blogId;
     private String blogTitle;
     private String authorName;
     private String blogContent;
